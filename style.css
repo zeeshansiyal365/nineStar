@@ -300,6 +300,7 @@ color: orangered;
         margin: 3rem 0;
         padding: 1.5rem 0;
         outline: none;
+        
     }
     
         .accordion-item button{
@@ -309,6 +310,9 @@ color: orangered;
         }
         .accordion-item button:hover{
             color: orangered;
+        }
+        .accordion-button{
+              box-shadow: none !important;
         }
     .faq{
         background-color:rgb(255, 250, 247);
