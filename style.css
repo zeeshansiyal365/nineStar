@@ -37,6 +37,7 @@ html{
     color: #fff;
     border: none;
     margin-top: .5rem;
+    /* margin-right: 2rem; */
     
 }
 .nav-button:hover{
@@ -327,8 +328,41 @@ color: orangered;
   color: inherit !important;
     border: none !important;}
 
+
+/* footer section */
+
+.footer{
+    margin-top: 5rem;
+}
+.footer p{
+    font-size: 2.5rem;
+}
+.footer a {
+    font-size: 2rem;
+    margin: 0 1rem;
+}
+
+
 @media (max-width:31.2rem ) {
     html{
         font-size: 43%;
     }
+}
+@media (max-width:60.7rem ) {
+ .navbar-nav a{
+    margin: 2rem .5rem;
+    font-size: 2.5rem;
+
+}
+.nav-button{
+    font-size: 2rem;
+    padding: 1rem 5rem;
+    margin-bottom: 3rem;
+}   
+
+
+}
+
+header{
+    background-color: #fff;
 }
